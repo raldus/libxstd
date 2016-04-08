@@ -65,7 +65,7 @@ namespace xstd
     string FileName::ext(bool dot) const
     {
         string::size_type st = find('.');
-        if (st == string::npos) return string(0);
+        if (st == string::npos) return string();
         if (dot) return substr(st, size()-st);
         else return substr(st+1, size()-st);
     }
