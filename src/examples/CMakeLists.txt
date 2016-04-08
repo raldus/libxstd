@@ -1,6 +1,5 @@
 
 
-
 add_executable(datetime datetime.cpp)
 add_dependencies(datetime xstd)
 target_link_libraries(datetime libxstd.so)

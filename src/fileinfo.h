@@ -1,6 +1,6 @@
 /***************************************************************************
- *   Copyright (C) 2005-2013 by Fred Klaus <development@fkweb.de>          *
- *                                                                         *
+ *   Copyright (C) by Fred Klaus                                           *
+ *       development@fkweb.de                                              *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -17,6 +17,7 @@
  *   Free Software Foundation, Inc.,                                       *
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
+
 #ifndef FILEINFO_H_
 #define FILEINFO_H_
 
@@ -79,6 +80,7 @@ namespace xstd
         mode_t  mode()   const {return mStat.st_mode;}
         ino_t   inode()  const {return mStat.st_ino;}
         dev_t   device() const {return mStat.st_dev;}
+
 #ifdef _WIN32
         nlink_t nlinks() const {return 0;}
         uid_t   uid()    const {return 0;}
@@ -102,6 +104,7 @@ namespace xstd
 
         bool isLink() const {return S_ISLNK (mStat.st_mode) ? true : false;}
 #endif /* _WIN32 */
+
         bool isDir()  const {return S_ISDIR(mStat.st_mode) ? true : false;}
         bool isFile() const {return S_ISDIR(mStat.st_mode) ? false : true;}
 
