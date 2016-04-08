@@ -1,0 +1,243 @@
+<toc label="libxstd" topic="index.html">
+  <topic label="Todo List" href="todo.html"/>
+  <topic label="Bug List" href="bug.html"/>
+  <topic label="Namespaces">
+    <topic label="Namespace List" href="namespaces.html">
+      <topic label="xstd" href="namespacexstd.html"/>
+    </topic>
+    <topic label="Namespace Members" href="namespacemembers.html">
+      <topic label="All" href="namespacemembers.html"/>
+      <topic label="Functions" href="namespacemembers_func.html"/>
+    </topic>
+  </topic>
+  <topic label="Classes">
+    <topic label="Class List" href="annotated.html">
+      <topic label="xstd" href="namespacexstd.html">
+        <topic label="DateTime" href="classxstd_1_1DateTime.html">
+          <topic label="DateTime" href="classxstd_1_1DateTime.html#acf75c3bceb9c359f535bbe16fd60b6c4"/>
+          <topic label="DateTime" href="classxstd_1_1DateTime.html#ae6bbc78c6a5994650b19f6e8a322e7ac"/>
+          <topic label="DateTime" href="classxstd_1_1DateTime.html#a8879f122eecb7d4b7fbdb8e32c93506b"/>
+          <topic label="~DateTime" href="classxstd_1_1DateTime.html#a92a262d2efc6c1e7a6adfb75ccf3091f"/>
+          <topic label="day" href="classxstd_1_1DateTime.html#a7d3f4969ee1e688fd1c43a65efd21682"/>
+          <topic label="hour" href="classxstd_1_1DateTime.html#af46b1177eefd40d0e56d0182d8af4d78"/>
+          <topic label="isLocal" href="classxstd_1_1DateTime.html#ada404fa4d6080a4134fdb296ba90453b"/>
+          <topic label="min" href="classxstd_1_1DateTime.html#a242db5b577556f72e470bc879ca9d5fd"/>
+          <topic label="month" href="classxstd_1_1DateTime.html#ab44a1c9f80525dfd616419a5250cc372"/>
+          <topic label="sec" href="classxstd_1_1DateTime.html#ae8937ebf65d7b4fbe8bed07b2881b984"/>
+          <topic label="set" href="classxstd_1_1DateTime.html#ae6586a17fddded3b00ad59ba16945584"/>
+          <topic label="simple" href="classxstd_1_1DateTime.html#a83f8aa662f4e98e980bb7b1774647151"/>
+          <topic label="str" href="classxstd_1_1DateTime.html#a0b87fafb5cd2b3320267c3dfa2d28585"/>
+          <topic label="weekday" href="classxstd_1_1DateTime.html#ab5ec6e820d9838b0b65a71499419349d"/>
+          <topic label="year" href="classxstd_1_1DateTime.html#a9d5d561341093e2d627a02b104ab72f8"/>
+          <topic label="yearday" href="classxstd_1_1DateTime.html#ae79b3639ff98000a8050abe23d20b460"/>
+          <topic label="mDateTime" href="classxstd_1_1DateTime.html#abe082b8b6e5fe10fb746ca10b0f136b4"/>
+        </topic>
+        <topic label="Directory" href="classxstd_1_1Directory.html">
+          <topic label="Directory" href="classxstd_1_1Directory.html#a80824ea7a1473009d6ed87e6655d6473"/>
+          <topic label="Directory" href="classxstd_1_1Directory.html#aef9a6eee3020ac6e40674e38ec639ca0"/>
+          <topic label="~Directory" href="classxstd_1_1Directory.html#aeec966d90d8985aeb8588718f2981676"/>
+          <topic label="scan" href="classxstd_1_1Directory.html#a2fa9d451699f540b0a83c9d2834f6345"/>
+          <topic label="sort" href="classxstd_1_1Directory.html#a7421a79c7d967223602598ddb0f31a46"/>
+          <topic label="sort" href="classxstd_1_1Directory.html#a0ae4c634cd90ebe74b4e32f00d888ddc"/>
+        </topic>
+        <topic label="FileInfo" href="classxstd_1_1FileInfo.html">
+          <topic label="FileInfo" href="classxstd_1_1FileInfo.html#a8e74884311a2ac0fe34347dc1928de41"/>
+          <topic label="FileInfo" href="classxstd_1_1FileInfo.html#a80e7f4f3a860209a528255aa45081b0f"/>
+          <topic label="~FileInfo" href="classxstd_1_1FileInfo.html#a390f54a6c25ceff4fd4b6151324b39dd"/>
+          <topic label="atime" href="classxstd_1_1FileInfo.html#afa4889bb250952f6040d5ee1af7f5bc1"/>
+          <topic label="blocks" href="classxstd_1_1FileInfo.html#a64d362c57015a77ae46cccf26305c140"/>
+          <topic label="ctime" href="classxstd_1_1FileInfo.html#a1ec65e5898726c0a9db87f7329ae2076"/>
+          <topic label="device" href="classxstd_1_1FileInfo.html#a6c4f8124081f12486d0fd7b75b406603"/>
+          <topic label="gid" href="classxstd_1_1FileInfo.html#ae214911ee9501689802e3eed6f8f55f5"/>
+          <topic label="inode" href="classxstd_1_1FileInfo.html#a3c90d7d521355973ed39962b98bf75a3"/>
+          <topic label="isDir" href="classxstd_1_1FileInfo.html#ad599cc5541e530b721f4e343b5718369"/>
+          <topic label="isFile" href="classxstd_1_1FileInfo.html#a56d28046f719b49e2d223c7351f8e45c"/>
+          <topic label="isLink" href="classxstd_1_1FileInfo.html#a8043111a1c824d04102de25a633137ce"/>
+          <topic label="isValid" href="classxstd_1_1FileInfo.html#a1c47c96a3a05dc7a867bed959c1d5fec"/>
+          <topic label="mode" href="classxstd_1_1FileInfo.html#a2fdef5c6b7bb4677ad13cb9a6b4b3de8"/>
+          <topic label="mtime" href="classxstd_1_1FileInfo.html#ac16f43709abd7ffaaae0370a984c0cc7"/>
+          <topic label="nlinks" href="classxstd_1_1FileInfo.html#a2e2b6b0f72e4040cff915d29e6fc6668"/>
+          <topic label="optblocksize" href="classxstd_1_1FileInfo.html#a4dcdccb5071d8d2d301b3a9208c5e8d4"/>
+          <topic label="read" href="classxstd_1_1FileInfo.html#ac44a3ade063c831c2b73931e56a2e8b0"/>
+          <topic label="size" href="classxstd_1_1FileInfo.html#a685b609d8535cde86fbdbc9c417ec5ef"/>
+          <topic label="uid" href="classxstd_1_1FileInfo.html#afa6a988d4355ce33325b1469f40ad153"/>
+          <topic label="mStat" href="classxstd_1_1FileInfo.html#af98da34920532e54a27566ca056eb934"/>
+          <topic label="mValid" href="classxstd_1_1FileInfo.html#a1599e4ac1a49a29ad5f7ac32078302db"/>
+        </topic>
+        <topic label="FileName" href="classxstd_1_1FileName.html">
+          <topic label="FileName" href="classxstd_1_1FileName.html#a285e79f3d268d515459568162a0be7c0"/>
+          <topic label="FileName" href="classxstd_1_1FileName.html#a6c75937917dbe95e659a6dcd45e53d1d"/>
+          <topic label="~FileName" href="classxstd_1_1FileName.html#a4cebe759921b7545f7443fe4f08ffba1"/>
+          <topic label="base" href="classxstd_1_1FileName.html#a70aae4f0c4511887ebdad5ca224a349e"/>
+          <topic label="ext" href="classxstd_1_1FileName.html#a3f112bc873fd626d2ea46b5e71d42c72"/>
+          <topic label="isRelative" href="classxstd_1_1FileName.html#a08d757d7634a721338da44f0fef1cea8"/>
+          <topic label="isValid" href="classxstd_1_1FileName.html#a0b63368121548fa0247027e04ca49b82"/>
+          <topic label="operator&lt;" href="classxstd_1_1FileName.html#a9d8c474742a6939be704544567b72659"/>
+          <topic label="operator==" href="classxstd_1_1FileName.html#a69403bedc3001c97c9baf4abf408b908"/>
+          <topic label="path" href="classxstd_1_1FileName.html#a234245bf44aa63e08f5cc40397b1fafd"/>
+          <topic label="qualified" href="classxstd_1_1FileName.html#a71566c6553315e742974f75baa15d800"/>
+          <topic label="relpath" href="classxstd_1_1FileName.html#a38b949b14c6fedcf93a7c58033cc7c77"/>
+          <topic label="set" href="classxstd_1_1FileName.html#ad05857d82cde979ceb7bb7c7334288cb"/>
+          <topic label="setBase" href="classxstd_1_1FileName.html#a9ca7a70c54ee5e940a608cc9338a044c"/>
+          <topic label="setExt" href="classxstd_1_1FileName.html#a7022ef29de979252f44f44fa58eeb1d6"/>
+          <topic label="setPath" href="classxstd_1_1FileName.html#a5ebf3b3bb1989f46a46746fc64d96dc5"/>
+        </topic>
+        <topic label="Settings" href="classxstd_1_1Settings.html">
+          <topic label="Case" href="classxstd_1_1Settings.html#a849f48673a8677a3d91329c69eca4367">
+            <topic label="KEEP" href="classxstd_1_1Settings.html#a849f48673a8677a3d91329c69eca4367aba4434c73f46cedac199c899dc1c58aa"/>
+            <topic label="UPPER" href="classxstd_1_1Settings.html#a849f48673a8677a3d91329c69eca4367af0566e7d4cfc9b546430c2d357365846"/>
+            <topic label="LOWER" href="classxstd_1_1Settings.html#a849f48673a8677a3d91329c69eca4367a378e91b0fd3a0db9a0098d69586b80e7"/>
+          </topic>
+          <topic label="Settings" href="classxstd_1_1Settings.html#acac8050a516e2b946b9aec03a2788756"/>
+          <topic label="Settings" href="classxstd_1_1Settings.html#a33a47fce2a5f2b917feef6441fce988b"/>
+          <topic label="~Settings" href="classxstd_1_1Settings.html#acaf61af92a72dc023bf37afe84deefbb"/>
+          <topic label="getFloat" href="classxstd_1_1Settings.html#a00c2ad8f7b0138ab16ef5c95ff5b7be7"/>
+          <topic label="getInt" href="classxstd_1_1Settings.html#a8353ca057556348be486bb9b8cee4ca2"/>
+          <topic label="getString" href="classxstd_1_1Settings.html#a3066e28e5d2eadd2271a412cd515afca"/>
+          <topic label="getStringL" href="classxstd_1_1Settings.html#a97f986a5c6123c1b61b910b7845e2084"/>
+          <topic label="getStringU" href="classxstd_1_1Settings.html#aefc6f784426854d960657222207727f2"/>
+          <topic label="load" href="classxstd_1_1Settings.html#ab409e5fab11e330a28975194bccd1a22"/>
+          <topic label="mCase" href="classxstd_1_1Settings.html#a05ace67e562470c9267e921e67feb834"/>
+          <topic label="mFileName" href="classxstd_1_1Settings.html#a87ebde82aa43dd2713b5df4564f69123"/>
+          <topic label="mMap" href="classxstd_1_1Settings.html#a5c4ee176cf8848e46e4ef09d83692492"/>
+        </topic>
+      </topic>
+    </topic>
+    <topic label="Class Index" href="classes.html"/>
+    <topic label="Class Hierarchy" href="hierarchy.html">
+      <topic label="std::basic_string&lt; Char &gt;">
+        <topic label="std::string">
+          <topic label="xstd::FileName" href="classxstd_1_1FileName.html"/>
+        </topic>
+      </topic>
+      <topic label="xstd::DateTime" href="classxstd_1_1DateTime.html"/>
+      <topic label="xstd::FileInfo" href="classxstd_1_1FileInfo.html"/>
+      <topic label="xstd::Settings" href="classxstd_1_1Settings.html"/>
+      <topic label="std::vector&lt; T &gt;">
+        <topic label="xstd::Directory" href="classxstd_1_1Directory.html"/>
+      </topic>
+    </topic>
+    <topic label="Class Members" href="functions.html">
+      <topic label="All" href="functions.html"/>
+      <topic label="Functions" href="functions_func.html"/>
+      <topic label="Variables" href="functions_vars.html"/>
+      <topic label="Enumerations" href="functions_enum.html"/>
+      <topic label="Enumerator" href="functions_eval.html"/>
+    </topic>
+  </topic>
+  <topic label="Files">
+    <topic label="File List" href="files.html">
+      <topic label="datetime.cpp" href="datetime_8cpp.html"/>
+      <topic label="datetime.h" href="datetime_8h.html">
+        <topic label="DateTime" href="classxstd_1_1DateTime.html">
+          <topic label="DateTime" href="classxstd_1_1DateTime.html#acf75c3bceb9c359f535bbe16fd60b6c4"/>
+          <topic label="DateTime" href="classxstd_1_1DateTime.html#ae6bbc78c6a5994650b19f6e8a322e7ac"/>
+          <topic label="DateTime" href="classxstd_1_1DateTime.html#a8879f122eecb7d4b7fbdb8e32c93506b"/>
+          <topic label="~DateTime" href="classxstd_1_1DateTime.html#a92a262d2efc6c1e7a6adfb75ccf3091f"/>
+          <topic label="day" href="classxstd_1_1DateTime.html#a7d3f4969ee1e688fd1c43a65efd21682"/>
+          <topic label="hour" href="classxstd_1_1DateTime.html#af46b1177eefd40d0e56d0182d8af4d78"/>
+          <topic label="isLocal" href="classxstd_1_1DateTime.html#ada404fa4d6080a4134fdb296ba90453b"/>
+          <topic label="min" href="classxstd_1_1DateTime.html#a242db5b577556f72e470bc879ca9d5fd"/>
+          <topic label="month" href="classxstd_1_1DateTime.html#ab44a1c9f80525dfd616419a5250cc372"/>
+          <topic label="sec" href="classxstd_1_1DateTime.html#ae8937ebf65d7b4fbe8bed07b2881b984"/>
+          <topic label="set" href="classxstd_1_1DateTime.html#ae6586a17fddded3b00ad59ba16945584"/>
+          <topic label="simple" href="classxstd_1_1DateTime.html#a83f8aa662f4e98e980bb7b1774647151"/>
+          <topic label="str" href="classxstd_1_1DateTime.html#a0b87fafb5cd2b3320267c3dfa2d28585"/>
+          <topic label="weekday" href="classxstd_1_1DateTime.html#ab5ec6e820d9838b0b65a71499419349d"/>
+          <topic label="year" href="classxstd_1_1DateTime.html#a9d5d561341093e2d627a02b104ab72f8"/>
+          <topic label="yearday" href="classxstd_1_1DateTime.html#ae79b3639ff98000a8050abe23d20b460"/>
+          <topic label="mDateTime" href="classxstd_1_1DateTime.html#abe082b8b6e5fe10fb746ca10b0f136b4"/>
+        </topic>
+      </topic>
+      <topic label="directory.cpp" href="directory_8cpp.html"/>
+      <topic label="directory.h" href="directory_8h.html">
+        <topic label="Directory" href="classxstd_1_1Directory.html">
+          <topic label="Directory" href="classxstd_1_1Directory.html#a80824ea7a1473009d6ed87e6655d6473"/>
+          <topic label="Directory" href="classxstd_1_1Directory.html#aef9a6eee3020ac6e40674e38ec639ca0"/>
+          <topic label="~Directory" href="classxstd_1_1Directory.html#aeec966d90d8985aeb8588718f2981676"/>
+          <topic label="scan" href="classxstd_1_1Directory.html#a2fa9d451699f540b0a83c9d2834f6345"/>
+          <topic label="sort" href="classxstd_1_1Directory.html#a7421a79c7d967223602598ddb0f31a46"/>
+          <topic label="sort" href="classxstd_1_1Directory.html#a0ae4c634cd90ebe74b4e32f00d888ddc"/>
+        </topic>
+      </topic>
+      <topic label="fileinfo.cpp" href="fileinfo_8cpp.html"/>
+      <topic label="fileinfo.h" href="fileinfo_8h.html">
+        <topic label="FileInfo" href="classxstd_1_1FileInfo.html">
+          <topic label="FileInfo" href="classxstd_1_1FileInfo.html#a8e74884311a2ac0fe34347dc1928de41"/>
+          <topic label="FileInfo" href="classxstd_1_1FileInfo.html#a80e7f4f3a860209a528255aa45081b0f"/>
+          <topic label="~FileInfo" href="classxstd_1_1FileInfo.html#a390f54a6c25ceff4fd4b6151324b39dd"/>
+          <topic label="atime" href="classxstd_1_1FileInfo.html#afa4889bb250952f6040d5ee1af7f5bc1"/>
+          <topic label="blocks" href="classxstd_1_1FileInfo.html#a64d362c57015a77ae46cccf26305c140"/>
+          <topic label="ctime" href="classxstd_1_1FileInfo.html#a1ec65e5898726c0a9db87f7329ae2076"/>
+          <topic label="device" href="classxstd_1_1FileInfo.html#a6c4f8124081f12486d0fd7b75b406603"/>
+          <topic label="gid" href="classxstd_1_1FileInfo.html#ae214911ee9501689802e3eed6f8f55f5"/>
+          <topic label="inode" href="classxstd_1_1FileInfo.html#a3c90d7d521355973ed39962b98bf75a3"/>
+          <topic label="isDir" href="classxstd_1_1FileInfo.html#ad599cc5541e530b721f4e343b5718369"/>
+          <topic label="isFile" href="classxstd_1_1FileInfo.html#a56d28046f719b49e2d223c7351f8e45c"/>
+          <topic label="isLink" href="classxstd_1_1FileInfo.html#a8043111a1c824d04102de25a633137ce"/>
+          <topic label="isValid" href="classxstd_1_1FileInfo.html#a1c47c96a3a05dc7a867bed959c1d5fec"/>
+          <topic label="mode" href="classxstd_1_1FileInfo.html#a2fdef5c6b7bb4677ad13cb9a6b4b3de8"/>
+          <topic label="mtime" href="classxstd_1_1FileInfo.html#ac16f43709abd7ffaaae0370a984c0cc7"/>
+          <topic label="nlinks" href="classxstd_1_1FileInfo.html#a2e2b6b0f72e4040cff915d29e6fc6668"/>
+          <topic label="optblocksize" href="classxstd_1_1FileInfo.html#a4dcdccb5071d8d2d301b3a9208c5e8d4"/>
+          <topic label="read" href="classxstd_1_1FileInfo.html#ac44a3ade063c831c2b73931e56a2e8b0"/>
+          <topic label="size" href="classxstd_1_1FileInfo.html#a685b609d8535cde86fbdbc9c417ec5ef"/>
+          <topic label="uid" href="classxstd_1_1FileInfo.html#afa6a988d4355ce33325b1469f40ad153"/>
+          <topic label="mStat" href="classxstd_1_1FileInfo.html#af98da34920532e54a27566ca056eb934"/>
+          <topic label="mValid" href="classxstd_1_1FileInfo.html#a1599e4ac1a49a29ad5f7ac32078302db"/>
+        </topic>
+      </topic>
+      <topic label="filename.cpp" href="filename_8cpp.html"/>
+      <topic label="filename.h" href="filename_8h.html">
+        <topic label="FileName" href="classxstd_1_1FileName.html">
+          <topic label="FileName" href="classxstd_1_1FileName.html#a285e79f3d268d515459568162a0be7c0"/>
+          <topic label="FileName" href="classxstd_1_1FileName.html#a6c75937917dbe95e659a6dcd45e53d1d"/>
+          <topic label="~FileName" href="classxstd_1_1FileName.html#a4cebe759921b7545f7443fe4f08ffba1"/>
+          <topic label="base" href="classxstd_1_1FileName.html#a70aae4f0c4511887ebdad5ca224a349e"/>
+          <topic label="ext" href="classxstd_1_1FileName.html#a3f112bc873fd626d2ea46b5e71d42c72"/>
+          <topic label="isRelative" href="classxstd_1_1FileName.html#a08d757d7634a721338da44f0fef1cea8"/>
+          <topic label="isValid" href="classxstd_1_1FileName.html#a0b63368121548fa0247027e04ca49b82"/>
+          <topic label="operator&lt;" href="classxstd_1_1FileName.html#a9d8c474742a6939be704544567b72659"/>
+          <topic label="operator==" href="classxstd_1_1FileName.html#a69403bedc3001c97c9baf4abf408b908"/>
+          <topic label="path" href="classxstd_1_1FileName.html#a234245bf44aa63e08f5cc40397b1fafd"/>
+          <topic label="qualified" href="classxstd_1_1FileName.html#a71566c6553315e742974f75baa15d800"/>
+          <topic label="relpath" href="classxstd_1_1FileName.html#a38b949b14c6fedcf93a7c58033cc7c77"/>
+          <topic label="set" href="classxstd_1_1FileName.html#ad05857d82cde979ceb7bb7c7334288cb"/>
+          <topic label="setBase" href="classxstd_1_1FileName.html#a9ca7a70c54ee5e940a608cc9338a044c"/>
+          <topic label="setExt" href="classxstd_1_1FileName.html#a7022ef29de979252f44f44fa58eeb1d6"/>
+          <topic label="setPath" href="classxstd_1_1FileName.html#a5ebf3b3bb1989f46a46746fc64d96dc5"/>
+        </topic>
+      </topic>
+      <topic label="settings.cpp" href="settings_8cpp.html"/>
+      <topic label="settings.h" href="settings_8h.html">
+        <topic label="Settings" href="classxstd_1_1Settings.html">
+          <topic label="Case" href="classxstd_1_1Settings.html#a849f48673a8677a3d91329c69eca4367">
+            <topic label="KEEP" href="classxstd_1_1Settings.html#a849f48673a8677a3d91329c69eca4367aba4434c73f46cedac199c899dc1c58aa"/>
+            <topic label="UPPER" href="classxstd_1_1Settings.html#a849f48673a8677a3d91329c69eca4367af0566e7d4cfc9b546430c2d357365846"/>
+            <topic label="LOWER" href="classxstd_1_1Settings.html#a849f48673a8677a3d91329c69eca4367a378e91b0fd3a0db9a0098d69586b80e7"/>
+          </topic>
+          <topic label="Settings" href="classxstd_1_1Settings.html#acac8050a516e2b946b9aec03a2788756"/>
+          <topic label="Settings" href="classxstd_1_1Settings.html#a33a47fce2a5f2b917feef6441fce988b"/>
+          <topic label="~Settings" href="classxstd_1_1Settings.html#acaf61af92a72dc023bf37afe84deefbb"/>
+          <topic label="getFloat" href="classxstd_1_1Settings.html#a00c2ad8f7b0138ab16ef5c95ff5b7be7"/>
+          <topic label="getInt" href="classxstd_1_1Settings.html#a8353ca057556348be486bb9b8cee4ca2"/>
+          <topic label="getString" href="classxstd_1_1Settings.html#a3066e28e5d2eadd2271a412cd515afca"/>
+          <topic label="getStringL" href="classxstd_1_1Settings.html#a97f986a5c6123c1b61b910b7845e2084"/>
+          <topic label="getStringU" href="classxstd_1_1Settings.html#aefc6f784426854d960657222207727f2"/>
+          <topic label="load" href="classxstd_1_1Settings.html#ab409e5fab11e330a28975194bccd1a22"/>
+          <topic label="mCase" href="classxstd_1_1Settings.html#a05ace67e562470c9267e921e67feb834"/>
+          <topic label="mFileName" href="classxstd_1_1Settings.html#a87ebde82aa43dd2713b5df4564f69123"/>
+          <topic label="mMap" href="classxstd_1_1Settings.html#a5c4ee176cf8848e46e4ef09d83692492"/>
+        </topic>
+      </topic>
+      <topic label="xstd.cpp" href="xstd_8cpp.html">
+        <topic label="toLower" href="xstd_8cpp.html#a8ca8e3c5a044a1f1cd0b40c941b7bb12"/>
+        <topic label="toUpper" href="xstd_8cpp.html#a86350b6c40a59ae94dfd301d2a052850"/>
+      </topic>
+      <topic label="xstd.h" href="xstd_8h.html">
+        <topic label="toLower" href="xstd_8h.html#a8ca8e3c5a044a1f1cd0b40c941b7bb12"/>
+        <topic label="toUpper" href="xstd_8h.html#a86350b6c40a59ae94dfd301d2a052850"/>
+      </topic>
+    </topic>
+  </topic>
+</toc>
