@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 2.6)
 
 project (XSTD CXX)
-set(PACKAGE_VERSION  "0.1")
+
 set(PACKAGE_NAME  "libxstd")
+exec_program(git ARGS describe --abbrev=0 --tags OUTPUT_VARIABLE PACKAGE_VERSION)
+set(PACKAGE_VERSION "${PACKAGE_VERSION}" CACHE STRING "Package Version")
 
 
 set(CMAKE_BINARY_DIR      "${CMAKE_SOURCE_DIR}/bin")
