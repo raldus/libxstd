@@ -67,11 +67,13 @@ link_directories("${LIBRARY_OUTPUT_PATH}")
 
 include_directories("${PROJECT_SOURCE_DIR}/src")
 
+
 add_subdirectory(src)
 
+
 # output
-message("Name   : ${PACKAGE_NAME}")
-message("Version: ${PACKAGE_VERSION}")
-message("CMAKE_BUILD_TYPE: ${CMAKE_BUILD_TYPE}")
-message("CMAKE_CXX_FLAGS_DEBUG  : ${CMAKE_CXX_FLAGS_DEBUG}")
-message("CMAKE_CXX_FLAGS_RELEASE: ${CMAKE_CXX_FLAGS_RELEASE}")
+message("")
+message("  * ${PROJECT_NAME} ${PACKAGE_VERSION} ${CMAKE_BUILD_TYPE}")
+message("  * CXX_FLAGS_DEBUG..: ${CMAKE_CXX_FLAGS_DEBUG}")
+message("  * CXX_FLAGS_RELEASE: ${CMAKE_CXX_FLAGS_RELEASE}")
+message("")
