@@ -8,4 +8,4 @@ A lightweight cross plattform library
 * Filename
 * Settings
 
-[Changelog](https://github.com/raldus/libxstd/CHANGELOG.md)
+[Changelog](https://github.com/raldus/libxstd/blob/master/CHANGELOG.md)
