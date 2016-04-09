@@ -36,7 +36,7 @@ namespace xstd
     {
 
     public:
-        DateTime();   /**< Constructor. Becaus null-time doeas not exist %DateTime is set to current time */
+        DateTime();   /**< Constructor. Becaus null-time does not exist %DateTime is set to current time */
         DateTime(time_t time);                      /**< Constuctor. @param time = time value. */
         DateTime(char day,int month, char year) {}  /**< Constuctor. @param time = time value. */
         ~DateTime() {}                              /**< Standard Destructor. Does nothing */
@@ -87,7 +87,7 @@ namespace xstd
         struct tm mDateTime;
 
     };
-}
+} // xstd
 
 
 
@@ -468,4 +468,4 @@ namespace xstd
 
 
 
-#endif /* DATETIME_H_ */
+#endif // DATETIME_H_

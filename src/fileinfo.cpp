@@ -36,4 +36,4 @@ namespace xstd
 #endif
 
     }
-} /* namespace xstd */
+} // xstd

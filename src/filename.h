@@ -87,6 +87,6 @@ namespace xstd
 
     };
 
-} /* namespace xstd */
+} // xstd
 
-#endif /* FILENAME_H_ */
+#endif // FILENAME_H_

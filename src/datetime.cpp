@@ -39,7 +39,7 @@ namespace xstd
         if (!time) time=::time(0);
     #ifdef _WIN32
         struct tm *tmp;
-        tmp=localtime(&time); // @todo not threadsafe but localtime_r not in MinGW !! */
+        tmp = localtime(&time); // @todo not threadsafe but localtime_r not in MinGW !! */
         mDateTime = *tmp;
     #else
         localtime_r(&time, &mDateTime); // @todo errorhandling */
@@ -54,5 +54,5 @@ namespace xstd
         else return string("");
     }
 
-}
+} // xstd
 

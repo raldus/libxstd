@@ -109,4 +109,4 @@ namespace xstd
         }
     }
 
-} /* namespace xstd */
+} // xstd

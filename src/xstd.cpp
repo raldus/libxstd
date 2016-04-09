@@ -41,4 +41,4 @@ namespace xstd
         return str;
     }
 
-} /* namespace xstd */
+} // xstd

@@ -27,7 +27,6 @@
 
 namespace xstd
 {
-    using std::vector;
 
     /// [std::vector] for directory entrys
     /** This is a vector to retrieve, store and sort FileName types.
@@ -39,14 +38,11 @@ namespace xstd
      bool operator<(const ... & right) const {return mTestOffset > right.mTestOffset;}
      \n\n<B>Example:</B>\n @include "directory.cpp"
      @author Fred Klaus */
-    class Directory: public vector<FileName>
+    class Directory : public std::vector<FileName>
     {
 
     public:
-        Directory()
-    : vector<FileName>()
-      {
-      }
+        Directory() : std::vector<FileName>() {};
         Directory(const string & path, bool subdir = false, bool owndir = false);
         ~Directory()
         {
@@ -64,8 +60,9 @@ namespace xstd
          @see <B>static</B> stk::FileName::setCaseSensitiveCompare */
         void sort(bool casesensitive);
     };
-} /* namespace xstd */
 
-#endif /* DIRECTORY_H_ */
+} // xstd
+
+#endif // DIRECTORY_H_
 
 

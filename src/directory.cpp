@@ -29,13 +29,12 @@
 
 namespace xstd
 {
-    using std::vector;
 
     Directory::Directory(const string & path, bool subdir, bool owndir)
-    : vector<FileName>()
-      {
+    : std::vector<FileName>()
+    {
         scan(path, subdir, owndir);
-      }
+    }
 
     void Directory::scan(const string & path, bool subdir, bool owndir)
     {
@@ -88,4 +87,4 @@ namespace xstd
         std::sort(begin(), end());
     }
 
-} /* namespace xstd */
+} // xstd

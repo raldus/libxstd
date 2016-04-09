@@ -117,8 +117,8 @@ namespace xstd
         bool mValid;
 
     };
-} /* namespace xstd */
+} // xstd
 
 
-#endif /* FILEINFO_H_ */
+#endif // FILEINFO_H_
 

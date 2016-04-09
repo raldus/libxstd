@@ -60,6 +60,6 @@ namespace xstd
         Case mCase;
     };
 
-} /* namespace xstd */
+} // xstd
 
 #endif /* SETTINGS_H_ */

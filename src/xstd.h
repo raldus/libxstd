@@ -27,9 +27,9 @@ namespace xstd
 {
     using std::string;
 
-    const string & toLower(string & str); /// converts a [std::string] to lower Case
-    const string & toUpper(string & str); /// converts a [std::string] to upper Case
+    const string & toLower(string & str); //! converts a [std::string] to lower Case
+    const string & toUpper(string & str); //! converts a [std::string] to upper Case
 
-} /* namespace xstd */
+} // xstd
 
-#endif /* XSTD_H_ */
+#endif // XSTD_H_
