@@ -1,8 +1,6 @@
 # libxstd - lightweight cross plattform library
 
-##
-
-Contains this classes:
+## Classes
 * DateTime
 * Directory
 * Fileinfo

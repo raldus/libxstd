@@ -1,10 +1,14 @@
 cmake_minimum_required(VERSION 2.6)
 
 project (XSTD CXX)
+set(PACKAGE_VERSION  "0.1")
+set(PACKAGE_NAME  "libxstd")
+
 
 set(CMAKE_BINARY_DIR      "${CMAKE_SOURCE_DIR}/bin")
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 set(LIBRARY_OUTPUT_PATH    ${CMAKE_BINARY_DIR})
+
 
 # C++ version
 include(CheckCXXCompilerFlag)
