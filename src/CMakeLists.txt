@@ -17,6 +17,8 @@ set_target_properties(xstd-static PROPERTIES OUTPUT_NAME "xstd")
 
 file(GLOB files "${PROJECT_SOURCE_DIR}/src/*.h")
 install(FILES ${files} DESTINATION include/xstd)
+# install(DIRECTORY "${CMAKE_SOURCE_DIR}/src/" DESTINATION include/xstd
+#         FILES_MATCHING PATTERN "*.h")
 install(
     TARGETS xstd-static xstd
     LIBRARY DESTINATION lib${LIB_SUFFIX}

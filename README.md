@@ -1,4 +1,5 @@
-# libxstd - lightweight cross plattform library
+# libxstd
+A lightweight cross plattform library
 
 ## Classes
 * DateTime
@@ -7,3 +8,4 @@
 * Filename
 * Settings
 
+[Changelog](http://github.com/)

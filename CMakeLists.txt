@@ -38,9 +38,9 @@ ENDIF()
 # doxygen target to generate API documentation with Doxygen
 find_package(Doxygen)
 if(DOXYGEN_FOUND)
-    configure_file(${CMAKE_SOURCE_DIR}/cmake/doxyfile.in ${CMAKE_SOURCE_DIR}/build/doxyfile @ONLY)
+    configure_file("${CMAKE_SOURCE_DIR}/files/doxyfile.in" "${CMAKE_SOURCE_DIR}/build/doxyfile" @ONLY)
     add_custom_target(doc
-        ${DOXYGEN_EXECUTABLE} ${CMAKE_SOURCE_DIR}/build/doxyfile
+        ${DOXYGEN_EXECUTABLE} "${CMAKE_SOURCE_DIR}/build/doxyfile"
         WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
         COMMENT "Generating API documentation with Doxygen" VERBATIM)
 endif(DOXYGEN_FOUND)
@@ -49,7 +49,7 @@ endif(DOXYGEN_FOUND)
 # uninstall target
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/build/CMakeModules)
 configure_file(
-    "${CMAKE_SOURCE_DIR}/cmake/uninstall.in"
+    "${CMAKE_SOURCE_DIR}/files/uninstall.in"
     "${CMAKE_SOURCE_DIR}/build/uninstall"
     IMMEDIATE @ONLY)
 add_custom_target(uninstall
@@ -68,6 +68,7 @@ include_directories("${PROJECT_SOURCE_DIR}/src")
 add_subdirectory(src)
 
 # output
+message("--- Info ---")
 message("CMAKE_BUILD_TYPE: ${CMAKE_BUILD_TYPE}")
 message("CMAKE_CXX_FLAGS_DEBUG: ${CMAKE_CXX_FLAGS_DEBUG}")
 message("CMAKE_CXX_FLAGS_RELEASE: ${CMAKE_CXX_FLAGS_RELEASE}")
