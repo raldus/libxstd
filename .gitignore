@@ -11,3 +11,7 @@ doc/*
 .directory
 .kateproject
 .swp
+
+### Eclipse ###
+.project
+.cproject
