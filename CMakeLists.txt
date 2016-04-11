@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 2.6)
 
 project (XSTD CXX)
-set(PROJECT_NAME  "xstd" CACHE STRING "Project Name")
-set(PACKAGE_NAME  "libxstd" CACHE STRING "Package Name")
+
+set(PACKAGE_TITLE "xstd" CACHE STRING "Package Title")
+set(PACKAGE_NAME "libxstd" CACHE STRING "Package Name")
 exec_program(git ARGS describe --abbrev=0 --tags OUTPUT_VARIABLE PACKAGE_VERSION)
 set(PACKAGE_VERSION "${PACKAGE_VERSION}" CACHE STRING "Package Version")
 
@@ -56,12 +57,7 @@ configure_file(
     IMMEDIATE @ONLY)
 add_custom_target(uninstall
     COMMAND ${CMAKE_COMMAND} -P ${CMAKE_SOURCE_DIR}/build/uninstall)
-
-######cat install_manifest.txt | xargs echo rm | sh
-
-
-# cache-variables
-# set(CACHE_VAR_CHECK CACHE STRING TestString)
+    
 
 link_directories("${LIBRARY_OUTPUT_PATH}")
 
@@ -73,7 +69,11 @@ add_subdirectory(src)
 
 # output
 message("")
-message("  * ${PROJECT_NAME} ${PACKAGE_VERSION} ${CMAKE_BUILD_TYPE}")
-message("  * CXX_FLAGS_DEBUG..: ${CMAKE_CXX_FLAGS_DEBUG}")
-message("  * CXX_FLAGS_RELEASE: ${CMAKE_CXX_FLAGS_RELEASE}")
+message("  * ${PACKAGE_TITLE} ${PACKAGE_VERSION} ${CMAKE_BUILD_TYPE}")
+if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+    message("  * CXX_FLAGS_DEBUG..: ${CMAKE_CXX_FLAGS} ${CMAKE_CXX_FLAGS_DEBUG}")
+endif()
+if (CMAKE_BUILD_TYPE STREQUAL "Release")
+    message("  * CXX_FLAGS_RELEASE: ${CMAKE_CXX_FLAGS} ${CMAKE_CXX_FLAGS_RELEASE}")
+endif()
 message("")
