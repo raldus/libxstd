@@ -1,0 +1,13 @@
+version: build{build}
+
+skip_tags: true
+
+build_script:
+
+- cmd: >-
+
+    cd C:\projects\libxstd
+
+
+
+    cmake -G "Visual Studio 14 2015 Win64"
