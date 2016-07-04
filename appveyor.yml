@@ -21,16 +21,15 @@ before_build:
 
 
 
-    cmake -G "Visual Studio 12 2013 Win64"
+    cmake -Bbuild -H. -G "Visual Studio 12 2013 Win64"
 
 
 
-    cmake --build build
+    cmake --build build --target xstd
 
 build:
 
   project: INSTALL.vcxproj
 
   verbosity: minimal
-
 
