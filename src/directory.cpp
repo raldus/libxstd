@@ -22,11 +22,11 @@
 
 #include <stddef.h>
 #include <sys/types.h>
-#if (MSVC)
-	#include "windirent.h"
+#if defined(_WIN32) || defined(_WIN64)
+    #include "windirent.h"
 #else
 	#include <dirent.h>
-#endif (MSVC)
+#endif
 
 
 #include <algorithm>
