@@ -24,7 +24,7 @@
 #include <sys/stat.h>
 #include <string>
 
-#ifdef _WIN32
+#if defined(_WIN32) || defined(_WIN64)
     #ifndef nlink_t
         typedef unsigned short int nlink_t;
     #endif
@@ -77,11 +77,14 @@ namespace xstd
         time_t  atime()  const {return mStat.st_atime;}
         time_t  mtime()  const {return mStat.st_mtime;}
         time_t  ctime()  const {return mStat.st_ctime;}
-        mode_t  mode()   const {return mStat.st_mode;}
+        //mode_t  mode()   const {return mStat.st_mode;}
         ino_t   inode()  const {return mStat.st_ino;}
         dev_t   device() const {return mStat.st_dev;}
 
-#ifdef _WIN32
+#if defined(_WIN32) || defined(_WIN64)
+	#ifndef S_ISDIR
+		#define S_ISDIR(mode)  (((mode) & S_IFMT) == S_IFDIR)
+	#endif
         nlink_t nlinks() const {return 0;}
         uid_t   uid()    const {return 0;}
         gid_t   gid()    const {return 0;}

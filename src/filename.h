@@ -77,8 +77,12 @@ namespace xstd
         static void setCaseSensitiveCompare(bool csc) {mCaseSensitive = csc;}
 
     private:
-#ifdef _WIN32
+#if defined(_WIN32) || defined(_WIN64) 
         static const char delim() {return '\\';}
+	#define snprintf _snprintf
+  	#define vsnprintf _vsnprintf
+  	#define strcasecmp _stricmp
+  	#define strncasecmp _strnicmp 
 #else
         static const char delim() {return '/';}
 #endif /* _WIN32 */

@@ -22,7 +22,12 @@
 
 #include <stddef.h>
 #include <sys/types.h>
-#include <dirent.h>
+#if (MSVC)
+	#include "dirent.h"
+#else
+	#include <dirent.h>
+#endif (MSVC)
+
 
 #include <algorithm>
 #include <iostream>
@@ -45,7 +50,7 @@ namespace xstd
         if (dir == 0) return; /** @todo errorhandling !! */
 
         struct dirent *entry;
-#ifdef _WIN32
+#if defined(_WIN32) || defined(_WIN64)
         while((entry=readdir(dir))) /**  @todo not threadsafe but readdir_r not in MinGW !! */
         {
             FileName fi(entry->d_name);
