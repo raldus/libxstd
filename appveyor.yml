@@ -25,7 +25,7 @@ before_build:
 
 
 
-    cmake --build build --target xstd
+    cmake --build build
 
 build:
 
