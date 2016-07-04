@@ -23,7 +23,7 @@
 #include <stddef.h>
 #include <sys/types.h>
 #if (MSVC)
-	#include "dirent.h"
+	#include "windirent.h"
 #else
 	#include <dirent.h>
 #endif (MSVC)
