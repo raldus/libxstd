@@ -34,18 +34,20 @@ if (UNIX)
 	                    Please use a different C++ compiler.")
 	endif()
 
+    # C++ flags
+    set(CMAKE_CXX_FLAGS_DEBUG   "${CMAKE_CXX_FLAGS_DEBUG} -Wall")
+    set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Wall")
+
+
+    IF (${CMAKE_SYSTEM_NAME} MATCHES "Linux" AND
+        ${CMAKE_SIZEOF_VOID_P} EQUAL "8")
+      SET(LIB_SUFFIX "64")
+    ENDIF()
+#set(LIB_SUFFIX "" CACHE STRING "Define suffix of library directory name (32/64)")
+
 endif (UNIX)
 
-# C++ flags
-set(CMAKE_CXX_FLAGS_DEBUG   "${CMAKE_CXX_FLAGS_DEBUG} -Wall")
-set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Wall")
 
-
-IF (${CMAKE_SYSTEM_NAME} MATCHES "Linux" AND
-    ${CMAKE_SIZEOF_VOID_P} EQUAL "8")
-  SET(LIB_SUFFIX "64")
-ENDIF()
-#set(LIB_SUFFIX "" CACHE STRING "Define suffix of library directory name (32/64)")
 
 
 # doxygen target to generate API documentation with Doxygen
