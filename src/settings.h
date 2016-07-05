@@ -21,10 +21,8 @@
 #ifndef SETTINGS_H_
 #define SETTINGS_H_
 
-
 #include <string>
 #include <map>
-
 
 namespace xstd
 {
@@ -36,10 +34,10 @@ namespace xstd
     /** handles all operations with Settings  */
     class Settings
     {
+
     public:
         enum Case {KEEP = 0, UPPER = 1, LOWER = 2};
 
-        Settings(); /// Standard Constructor
         Settings(Case cas = KEEP); /// Constructor to select Upper-/Lower Case Sorage in Settings::map
 
         virtual ~Settings();

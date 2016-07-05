@@ -19,24 +19,14 @@
  ***************************************************************************/
 
 #include "settings.h"
-
 #include "xstd.h" // toLower & toUpper
-
 
 #include <cstdlib>
 #include <cctype>
 #include <fstream>
 
-
 namespace xstd
 {
-
-    Settings::Settings()
-    {
-        mMap.clear();
-        mFileName.clear();
-        mCase = KEEP;
-    }
 
     Settings::Settings(Case cas)
     {
