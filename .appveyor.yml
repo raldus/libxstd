@@ -1,0 +1,41 @@
+
+
+version: '{branch}#{build}'
+
+image: Visual Studio 2013
+
+platform: x64
+
+build_script:
+
+- cmd: >-
+
+    cd C:\projects\libxstd
+
+
+
+    cmake -Bbuild -H. -G "Visual Studio 12 2013 Win64"
+
+
+
+    cmake --build build --target xstd
+
+notifications:
+
+- provider: Email
+
+  to:
+
+  - appveyor@fkweb.de
+
+  subject: AppVeyor - Build of libxstd failed
+
+  message: Build of libxstd failed
+
+  on_build_success: false
+
+  on_build_failure: true
+
+  on_build_status_changed: false
+
+
