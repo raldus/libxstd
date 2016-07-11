@@ -1,6 +1,6 @@
 # libxstd
 
-A lightweight cross plattform library
+A lightweight cross plattform library for Windows and Linux
 
 ## Build
 
@@ -13,10 +13,13 @@ A lightweight cross plattform library
 ## API
 
 ### Classes
-* DateTime
-* Directory
-* Fileinfo
-* Filename
-* Settings
+
+|class|description|
+|-----|-----------|
+|DateTime|Represents Date and Time using timezones|
+|Directory|Represents a Directory and its content|
+|Fileinfo|Covers all Information about a File|
+|Filename|Holds a FileName and retrieves its parts as slightly enhanced std::string|
+|Settings|Manage application settings|
 
 [Changelog](https://github.com/raldus/libxstd/blob/master/CHANGELOG.md)
