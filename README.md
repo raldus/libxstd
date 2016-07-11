@@ -16,10 +16,10 @@ A lightweight cross plattform library for Windows and Linux
 
 |Name|Description|
 |----|-----------|
-|DateTime|Represents Date and Time using timezones|
-|Directory|Represents a Directory and its content|
-|Fileinfo|Covers all Information about a File|
-|Filename|Holds a FileName and retrieves its parts as slightly enhanced std::string|
+|DateTime|Represents date and time using timezones|
+|Directory|Represents a folder and its content|
+|Fileinfo|Covers all information about a file|
+|Filename|Holds a path to a file or directory and retrieves its parts as slightly enhanced std::string|
 |Settings|Manage application settings|
 
 [Changelog](https://github.com/raldus/libxstd/blob/master/CHANGELOG.md)
