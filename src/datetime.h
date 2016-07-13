@@ -28,15 +28,15 @@ namespace xstd
 {
     using std::string;
 
-    /// Date- and Timehandling.
-    /** Covers Time and Date and reformating of them.
-        \n\n<B>Example:</B>\n @include "datetime.cpp"
-        @author Fred Klaus */
+    //! Date- and Timehandling.
+    //! Covers Time and Date and reformating of them.
+    //! \n\n<B>Example:</B>\n @include "datetime.cpp"
+    //! @author Fred Klaus */
     class DateTime
     {
 
     public:
-        DateTime();   /**< Constructor. Becaus null-time does not exist %DateTime is set to current time */
+        DateTime();   /**< Constructor. Because null-time does not exist %DateTime is set to current time */
         DateTime(time_t time);                      /**< Constuctor. @param time = time value. */
         DateTime(char day,int month, char year) {}  /**< Constuctor. @param time = time value. */
         ~DateTime() {}                              /**< Standard Destructor. Does nothing */
