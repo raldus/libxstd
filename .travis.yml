@@ -16,8 +16,6 @@ addons:
     - clang
 
 before_script:
-    - git fetch --tags
-    - git describe --abbrev=0 --tags --always
     - cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Release -G"Unix Makefiles"
 
 script: 
