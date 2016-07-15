@@ -18,10 +18,9 @@ addons:
     - clang
 
 before_script:  
-    - mkdir -p build
-    - mkdir -p bin
-    - cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Release
-    - cat -n build/src/CMakeFiles/xstd.dir/build.make
+    - mkdir bin
+    - mkdir build
+    - cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Release -G"Unix Makefiles"
 
 script: cmake --build build
 
