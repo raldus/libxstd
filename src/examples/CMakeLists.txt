@@ -30,7 +30,6 @@ else()
 	
 	add_executable(filename filename.cpp)
 	add_dependencies(filename xstd)
-	target_link_libraries(filename libxstd.so
-)
+	target_link_libraries(filename libxstd.so)
 endif(MSVC)
 
