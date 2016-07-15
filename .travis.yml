@@ -15,7 +15,8 @@ addons:
     - g++-4.8
     - clang
 
-before_script:  
+before_script: 
+    - git describe --abbrev=0 --tags
     - cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Release -G"Unix Makefiles"
 
 script: 
