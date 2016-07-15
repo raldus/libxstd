@@ -22,7 +22,7 @@ before_script:
     - mkdir build
     - cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Release -G"Unix Makefiles"
 
-script: cmake --build build
+script: cmake --build build --target xstd
 
 os:
   - linux 
