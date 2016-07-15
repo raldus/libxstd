@@ -4,7 +4,7 @@ project (XSTD CXX)
 
 set(PACKAGE_TITLE "xstd" CACHE STRING "Package Title")
 set(PACKAGE_NAME "libxstd" CACHE STRING "Package Name")
-exec_program(git ARGS describe --abbrev=0 --tags OUTPUT_VARIABLE PACKAGE_VERSION)
+exec_program(git ARGS describe "--abbrev=0 --tags" OUTPUT_VARIABLE PACKAGE_VERSION)
 set(PACKAGE_VERSION "${PACKAGE_VERSION}" CACHE STRING "Package Version")
 
 

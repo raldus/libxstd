@@ -11,18 +11,15 @@ addons:
     sources:
     - ubuntu-toolchain-r-test
     packages:
-    - make
-    - cmake
     - gcc-4.8
     - g++-4.8
     - clang
 
 before_script:  
-    - mkdir bin
-    - mkdir build
     - cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Release -G"Unix Makefiles"
 
-script: cmake --build build
+script: 
+    - cmake --build build
 
 os:
-  - linux 
+    - linux 
