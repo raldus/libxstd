@@ -21,6 +21,7 @@ before_script:
     - mkdir -p build
     - mkdir -p bin
     - cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Release
+    - cat -n src/CMakeFiles/xstd.dir/build.make
 
 script: cmake --build build
 
