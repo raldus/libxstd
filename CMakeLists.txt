@@ -79,9 +79,12 @@ include_directories("${PROJECT_SOURCE_DIR}/src")
 add_subdirectory(src)
 
 
+
+math(EXPR CMAKE_BITS ${CMAKE_SIZEOF_VOID_P}*8)
+
 # output
 message("")
-message("  * ${PACKAGE_TITLE} ${PACKAGE_VERSION} ${CMAKE_BUILD_TYPE}")
+message("  * ${PACKAGE_TITLE} ${PACKAGE_VERSION} ${CMAKE_BUILD_TYPE} ${CMAKE_BITS}bit")
 if (CMAKE_BUILD_TYPE STREQUAL "Debug")
     message("  * CXX_FLAGS_DEBUG..: ${CMAKE_CXX_FLAGS} ${CMAKE_CXX_FLAGS_DEBUG}")
 endif()
