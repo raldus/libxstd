@@ -10,7 +10,7 @@ set_property(TARGET xstd        PROPERTY SOVERSION ${PACKAGE_VERSION})
 set_property(TARGET xstd-static PROPERTY SOVERSION ${PACKAGE_VERSION})
 
 
-file(GLOB files "${PROJECT_SOURCE_DIR}/src/*.h")
+file(GLOB files ${PROJECT_SOURCE_DIR}/src/*.h)
 install(FILES ${files} DESTINATION include/xstd)
 # install(DIRECTORY "${CMAKE_SOURCE_DIR}/src/" DESTINATION include/xstd
 #         FILES_MATCHING PATTERN "*.h")

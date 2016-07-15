@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 2.8)
 
 project (XSTD CXX)
 
@@ -8,9 +8,9 @@ exec_program(git ARGS describe --abbrev=0 --tags OUTPUT_VARIABLE PACKAGE_VERSION
 set(PACKAGE_VERSION "${PACKAGE_VERSION}" CACHE STRING "Package Version")
 
 
-set(CMAKE_BINARY_DIR      "${CMAKE_SOURCE_DIR}/bin")
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
-set(LIBRARY_OUTPUT_PATH    ${CMAKE_BINARY_DIR})
+set(CMAKE_BINARY_DIR       "${CMAKE_SOURCE_DIR}/bin")
+set(EXECUTABLE_OUTPUT_PATH "${CMAKE_BINARY_DIR}")
+set(LIBRARY_OUTPUT_PATH    "${CMAKE_BINARY_DIR}")
 
 if (WIN32)
     set(_WIN32 CACHE BOOLEAN true)
@@ -56,19 +56,19 @@ if(DOXYGEN_FOUND)
     configure_file("${CMAKE_SOURCE_DIR}/files/doxyfile.in" "${CMAKE_SOURCE_DIR}/build/doxyfile" @ONLY)
     add_custom_target(doc
         ${DOXYGEN_EXECUTABLE} "${CMAKE_SOURCE_DIR}/build/doxyfile"
-        WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
+        WORKING_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}"
         COMMENT "Generating API documentation with Doxygen" VERBATIM)
 endif(DOXYGEN_FOUND)
 
 
 # uninstall target
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/build/CMakeModules)
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/build/CMakeModules")
 configure_file(
     "${CMAKE_SOURCE_DIR}/files/uninstall.in"
     "${CMAKE_SOURCE_DIR}/build/uninstall"
     IMMEDIATE @ONLY)
 add_custom_target(uninstall
-    COMMAND ${CMAKE_COMMAND} -P ${CMAKE_SOURCE_DIR}/build/uninstall)
+    COMMAND ${CMAKE_COMMAND} -P "${CMAKE_SOURCE_DIR}/build/uninstall")
     
 
 link_directories("${LIBRARY_OUTPUT_PATH}")
