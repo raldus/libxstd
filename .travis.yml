@@ -6,7 +6,6 @@ compiler:
 
 install:
     - if [ "$CXX" = "g++" ]; then export CXX="g++-4.8" CC="gcc-4.8"; fi
-    - make get-deps
 addons:
   apt:
     sources:
@@ -21,9 +20,9 @@ addons:
 before_script:  
     - mkdir -p build
     - mkdir -p bin
-    - cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Release 
+    - cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Release
 
-script: cmake --build build 
+script: cmake --build build
 
 os:
   - linux 
