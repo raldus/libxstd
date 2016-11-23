@@ -44,7 +44,10 @@ if (UNIX)
       SET(LIB_SUFFIX "64")
     ENDIF()
 #set(LIB_SUFFIX "" CACHE STRING "Define suffix of library directory name (32/64)")
-
+    # eclipse stop on error
+    ADD_DEFINITIONS(-Wfatal-errors)
+    # be verbose
+    ADD_DEFINITIONS(-Wall -Wextra -Weffc++ -pedantic)
 endif (UNIX)
 
 

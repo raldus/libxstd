@@ -23,7 +23,7 @@ namespace xstd
 {
     FileInfo::FileInfo(const string & filename)
     {
-        mValid=read(filename, false);
+        mValid = read(filename, false);
     }
 
     bool FileInfo::read(const string & fname, bool followlink)
@@ -31,7 +31,7 @@ namespace xstd
 #ifdef _WIN32
         return mValid = stat(fname.c_str(), &mStat) ? false : true;
 #else
-        if (followlink) return mValid=stat(fname.c_str(), &mStat) ? false : true;
+        if (followlink) return mValid = stat(fname.c_str(), &mStat) ? false : true;
         else return mValid = lstat(fname.c_str(), &mStat) ? false : true;
 #endif
 

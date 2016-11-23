@@ -69,7 +69,7 @@ namespace xstd
 
     public:
         /** Standardconstructor. The only action is to set validflag to false */
-        FileInfo() : mValid(false) {}
+        FileInfo() : mValid(false), mStat() {}
         FileInfo(const string & filename);
         ~FileInfo() {};
 
@@ -116,8 +116,9 @@ namespace xstd
         bool read(const string & fname, bool followlink=false);
 
     private:
-        struct stat mStat;
         bool mValid;
+        struct stat mStat;
+
 
     };
 } // xstd

@@ -35,7 +35,7 @@ namespace xstd
         mCase = cas;
     }
 
-    Settings::~Settings() {};
+    Settings::~Settings() {}
 
     int Settings::load(const string & filename)
     {

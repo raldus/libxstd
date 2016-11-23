@@ -38,7 +38,7 @@ namespace xstd
     public:
         DateTime();   /**< Constructor. Because null-time does not exist DateTime is set to current time */
         DateTime(time_t time);                      /**< Constuctor. @param time = time value. */
-        DateTime(char day,int month, char year) {}  /**< Constuctor. @param time = time value. */
+        DateTime(char day, int month, char year) {} /**< Constuctor. @param time = time value. */
         ~DateTime() {}                              /**< Standard Destructor. Does nothing */
 
         void set(time_t time);
