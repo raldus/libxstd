@@ -7,10 +7,9 @@ A lightweight cross plattform library for Windows and Linux
 ### Status
 
 |System|Version|Bits|Compiler(s)|Status|
-|------|:-----:|:--:|-----------|-----:|
-|Linux|Ubuntu 12.04 LTS|64|g++-4.8 & clang 3.4|[![Build Status] (https://travis-ci.org/raldus/libxstd.svg?branch=master)](https://travis-ci.org/raldus/libxstd)|
-|Windows|?|64|Visual Studio 12 2013|[![Build status] (https://ci.appveyor.com/api/projects/status/d01uli106rsqrtr6?svg=true)](https://ci.appveyor.com/project/raldus/libxstd)|
-|Windows|?|32|Visual Studio 12 2013|[![Build status](https://ci.appveyor.com/api/projects/status/s6odng6vsrpag0qg?svg=true)](https://ci.appveyor.com/project/raldus/libxstd-cq0kj)|
+|------|:-----------:|:--:|-----------|-----:|
+|Linux|Ubuntu 12.04 LTS|64|g++-4.8 & clang 3.4|[![Build Status](https://travis-ci.org/raldus/libxstd.svg?branch=master)](https://travis-ci.org/raldus/libxstd)|
+|Windows|?|32/64|Visual Studio 12 2013|[![Build status](https://ci.appveyor.com/api/projects/status/s6odng6vsrpag0qg/branch/master?svg=true)](https://ci.appveyor.com/project/raldus/libxstd-cq0kj/branch/master)|
 
 
 
